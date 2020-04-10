@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+noc-monitor - Aggregator POM for Network Operations Center Monitoring.
+Copyright (C) 2020  AO Industries, Inc.
+	support@aoindustries.com
+	7262 Bull Pen Cir
+	Mobile, AL 36695
+
+This file is part of noc-monitor.
+
+noc-monitor is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+noc-monitor is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.7.2-POST-SNAPSHOT</version>
+		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.aoindustries</groupId><artifactId>noc-monitor</artifactId><version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>NOC Monitor</name>
+	<url>https://aoindustries.com/noc-monitor/</url>
+	<description>Aggregator POM for Network Operations Center Monitoring.</description>
+	<inceptionYear>2020</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/aoindustries/noc-monitor.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/noc-monitor.git</developerConnection>
+		<url>https://github.com/aoindustries/noc-monitor</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/noc-monitor/issues</url>
+	</issueManagement>
+
+	<modules>
+		<!-- TODO: <module>book</module>-->
+		<module>api</module>
+		<!-- TODO: <module>api/book</module>-->
+		<!-- TODO: <module>blender</module>-->
+		<!-- TODO: <module>blender/book</module>-->
+		<!-- TODO: <module>callable</module>-->
+		<!-- TODO: <module>callable/book</module>-->
+		<module>impl</module>
+		<!-- TODO: <module>impl/book</module>-->
+		<!-- TODO: <module>mobile</module>-->
+		<!-- TODO: <module>mobile/book</module>-->
+		<!-- TODO: <module>mobile-server</module>-->
+		<!-- TODO: <module>mobile-server/book</module>-->
+		<!-- TODO: <module>noswing</module>-->
+		<!-- TODO: <module>noswing/book</module>-->
+		<module>portmon</module>
+		<!-- TODO: <module>portmon/book</module>-->
+		<module>rmi-client</module>
+		<!-- TODO: <module>rmi-client/book</module>-->
+		<!-- TODO: <module>rmi-server</module>-->
+		<!-- TODO: <module>rmi-server/book</module>-->
+		<module>server</module>
+		<!-- TODO: <module>server/book</module>-->
+		<!-- TODO: <module>wrapper</module>-->
+		<!-- TODO: <module>wrapper/book</module>-->
+	</modules>
+</project>
