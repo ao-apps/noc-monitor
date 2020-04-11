@@ -32,8 +32,12 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 	<groupId>com.aoindustries</groupId><artifactId>noc-monitor</artifactId><version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<shortTitle>Monitor</shortTitle>
+	</properties>
+
 	<name>NOC Monitor</name>
-	<url>https://aoindustries.com/noc-monitor/</url>
+	<url>https://aoindustries.com/noc/monitor/</url>
 	<description>Aggregator POM for Network Operations Center Monitoring.</description>
 	<inceptionYear>2020</inceptionYear>
 
@@ -50,15 +54,15 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 	</issueManagement>
 
 	<modules>
-		<!-- TODO: <module>book</module>-->
+		<module>book</module>
 		<module>api</module>
-		<!-- TODO: <module>api/book</module>-->
+		<module>api/book</module>
 		<!-- TODO: <module>blender</module>-->
 		<!-- TODO: <module>blender/book</module>-->
 		<!-- TODO: <module>callable</module>-->
 		<!-- TODO: <module>callable/book</module>-->
 		<module>impl</module>
-		<!-- TODO: <module>impl/book</module>-->
+		<module>impl/book</module>
 		<!-- TODO: <module>mobile</module>-->
 		<!-- TODO: <module>mobile/book</module>-->
 		<!-- TODO: <module>mobile-server</module>-->
@@ -66,13 +70,13 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 		<!-- TODO: <module>noswing</module>-->
 		<!-- TODO: <module>noswing/book</module>-->
 		<module>portmon</module>
-		<!-- TODO: <module>portmon/book</module>-->
+		<module>portmon/book</module>
 		<module>rmi-client</module>
-		<!-- TODO: <module>rmi-client/book</module>-->
+		<module>rmi-client/book</module>
 		<!-- TODO: <module>rmi-server</module>-->
 		<!-- TODO: <module>rmi-server/book</module>-->
 		<module>server</module>
-		<!-- TODO: <module>server/book</module>-->
+		<module>server/book</module>
 		<!-- TODO: <module>wrapper</module>-->
 		<!-- TODO: <module>wrapper/book</module>-->
 	</modules>
