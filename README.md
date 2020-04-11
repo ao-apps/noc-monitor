@@ -21,8 +21,8 @@
 Aggregator POM for [Network Operations Center](https://github.com/aoindustries/noc) Monitoring.
 
 ## Project Links
-* [Project Home](https://aoindustries.com/noc-monitor/)
-* [Changelog](https://aoindustries.com/noc-monitor/changelog)
+* [Project Home](https://aoindustries.com/noc/monitor/)
+* [Changelog](https://aoindustries.com/noc/monitor/changelog)
 * [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/noc-monitor)
 * [GitHub](https://github.com/aoindustries/noc-monitor)
 
