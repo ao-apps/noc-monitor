@@ -1,48 +1,48 @@
 [submodule "api"]
 	path = api
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-api.git
+	url = git@github.com:aoindustries/noc-monitor-api.git
 	branch = master
 [submodule "blender"]
 	path = blender
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-blender.git
+	url = git@github.com:aoindustries/noc-monitor-blender.git
 	branch = master
 [submodule "callable"]
 	path = callable
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-callable.git
+	url = git@github.com:aoindustries/noc-monitor-callable.git
 	branch = master
 [submodule "impl"]
 	path = impl
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-impl.git
+	url = git@github.com:aoindustries/noc-monitor-impl.git
 	branch = master
 [submodule "mobile"]
 	path = mobile
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-mobile.git
+	url = git@github.com:aoindustries/noc-monitor-mobile.git
 	branch = master
 [submodule "mobile-server"]
 	path = mobile-server
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-mobile-server.git
+	url = git@github.com:aoindustries/noc-monitor-mobile-server.git
 	branch = master
 [submodule "noswing"]
 	path = noswing
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-noswing.git
+	url = git@github.com:aoindustries/noc-monitor-noswing.git
 	branch = master
 [submodule "portmon"]
 	path = portmon
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-portmon.git
+	url = git@github.com:aoindustries/noc-monitor-portmon.git
 	branch = master
 [submodule "rmi-client"]
 	path = rmi-client
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-rmi-client.git
+	url = git@github.com:aoindustries/noc-monitor-rmi-client.git
 	branch = master
 [submodule "rmi-server"]
 	path = rmi-server
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-rmi-server.git
+	url = git@github.com:aoindustries/noc-monitor-rmi-server.git
 	branch = master
 [submodule "server"]
 	path = server
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-server.git
+	url = git@github.com:aoindustries/noc-monitor-server.git
 	branch = master
 [submodule "wrapper"]
 	path = wrapper
-	url = git@aoindustries.github.com:aoindustries/noc-monitor-wrapper.git
+	url = git@github.com:aoindustries/noc-monitor-wrapper.git
 	branch = master
