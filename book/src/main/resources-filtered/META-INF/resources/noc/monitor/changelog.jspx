@@ -52,7 +52,7 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
+			/>
 		</c:if>
 
 		<changelog:release
