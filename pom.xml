@@ -63,6 +63,7 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 		<!-- TODO: <module>callable/book</module>-->
 		<module>impl</module>
 		<module>impl/book</module>
+		<module>impl/devel</module>
 		<!-- TODO: <module>mobile</module>-->
 		<!-- TODO: <module>mobile/book</module>-->
 		<!-- TODO: <module>mobile-server</module>-->
