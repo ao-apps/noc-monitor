@@ -8,6 +8,11 @@
 
 [![Build](https://github.com/aoindustries/noc-monitor/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/noc-monitor/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc-monitor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc-monitor)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps.platform%3Anoc-monitor)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc-monitor&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc-monitor&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc-monitor&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc-monitor&metric=Maintainability)
 
 Aggregator POM for [Network Operations Center](https://github.com/aoindustries/noc) Monitoring.
 
