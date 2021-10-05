@@ -34,7 +34,7 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-07-16T03:48:08-05:00"
+		dateModified="2021-10-05T04:07:33-05:00"
 	>
 		<core:child page="changelog.jspx" />
 		<core:child book="/noc/monitor/api" page="/index.jspx" />
@@ -86,23 +86,23 @@ along with noc-monitor.  If not, see <http://www.gnu.org/licenses />.
 			<ul>
 				<li><core:link book="/noc/monitor/api" page="/index.jspx" /></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/blender" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-blender">NOC Monitor Blender</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-blender">NOC Monitor Blender</ao:a></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/callable" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-callable">NOC Monitor Callable</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-callable">NOC Monitor Callable</ao:a></li>
 				<li><core:link book="/noc/monitor/impl" page="/index.jspx" /></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/mobile" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-mobile">NOC Monitor Mobile</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile">NOC Monitor Mobile</ao:a></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/mobile-server" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-mobile-server">NOC Monitor Mobile Server</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile-server">NOC Monitor Mobile Server</ao:a></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/noswing" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-noswing">NOC Monitor No Swing</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-noswing">NOC Monitor No Swing</ao:a></li>
 				<li><core:link book="/noc/monitor/portmon" page="/index.jspx" /></li>
 				<li><core:link book="/noc/monitor/rmi-client" page="/index.jspx" /></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/rmi-server" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-rmi-server">NOC Monitor RMI Server</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-rmi-server">NOC Monitor RMI Server</ao:a></li>
 				<li><core:link book="/noc/monitor/server" page="/index.jspx" /></li>
 				<!-- TODO: <li><core:link book="/noc/monitor/wrapper" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/aoindustries/noc-monitor-wrapper">NOC Monitor Wrapper</ao:a></li>
+				<li><ao:a href="https://github.com/ao-apps/noc-monitor-wrapper">NOC Monitor Wrapper</ao:a></li>
 			</ul>
 		</section:section>
 	</core:page>
