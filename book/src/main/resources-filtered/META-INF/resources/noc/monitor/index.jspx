@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 noc-monitor - Aggregator POM for Network Operations Center Monitoring.
-Copyright (C) 2020, 2021  AO Industries, Inc.
-	support@aoindustries.com
-	7262 Bull Pen Cir
-	Mobile, AL 36695
+Copyright (C) 2020, 2021, 2022  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
 
 This file is part of noc-monitor.
 
@@ -22,88 +22,88 @@ You should have received a copy of the GNU Lesser General Public License
 along with noc-monitor.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <jsp:root
-	xmlns:ao="https://oss.aoapps.com/taglib/"
-	xmlns:core="https://semanticcms.com/core/taglib/"
-	xmlns:jsp="http://java.sun.com/JSP/Page"
-	xmlns:section="https://semanticcms.com/section/taglib/"
-	version="2.1"
+  xmlns:ao="https://oss.aoapps.com/taglib/"
+  xmlns:core="https://semanticcms.com/core/taglib/"
+  xmlns:jsp="http://java.sun.com/JSP/Page"
+  xmlns:section="https://semanticcms.com/section/taglib/"
+  version="2.1"
 >
-	<jsp:directive.page language="java" pageEncoding="UTF-8" />
-	<jsp:directive.page session="false" />
-	<core:page
-		title="@{documented.name}"
-		description="@{documented.description}"
-		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-10-05T04:07:33-05:00"
-	>
-		<core:child page="changelog.jspx" />
-		<core:child book="/noc/monitor/api" page="/index.jspx" />
-		<!-- TODO: <core:child book="/noc/monitor/blender" page="/index.jspx" /> -->
-		<!-- TODO: <core:child book="/noc/monitor/callable" page="/index.jspx" /> -->
-		<core:child book="/noc/monitor/impl" page="/index.jspx" />
-		<!-- TODO: <core:child book="/noc/monitor/mobile" page="/index.jspx" /> -->
-		<!-- TODO: <core:child book="/noc/monitor/mobile-server" page="/index.jspx" /> -->
-		<!-- TODO: <core:child book="/noc/monitor/noswing" page="/index.jspx" /> -->
-		<core:child book="/noc/monitor/portmon" page="/index.jspx" />
-		<core:child book="/noc/monitor/rmi-client" page="/index.jspx" />
-		<!-- TODO: <core:child book="/noc/monitor/rmi-server" page="/index.jspx" /> -->
-		<core:child book="/noc/monitor/server" page="/index.jspx" />
-		<!-- TODO: <core:child book="/noc/monitor/wrapper" page="/index.jspx" /> -->
-		<header>
-			<ao:include
-				page="/ao-badges/badges.inc.jspx"
-				arg.projectStatus="current-stable"
-				arg.managementStatus="production"
-				arg.packagingStatus="active"
-				arg.semanticVersioning="2.0.0"
-				arg.license="lgpl-3.0"
-				arg.scmUrl="@{project.scm.url}"
-				arg.githubBuildWorkflow="Build"
-				arg.mavenBadge="maven-central"
-				arg.groupId="@{project.groupId}"
-				arg.artifactId="@{documented.artifactId}"
-				arg.sonarProjectKey="com.aoapps.platform:noc-monitor"
-				arg.sonarQualityGate="true"
-				arg.sonarLinesOfCode="true"
-				arg.sonarReliability="true"
-				arg.sonarSecurity="true"
-				arg.sonarMaintainability="true"
-			/>
-			<!-- TODO: Remove arg.sonarProjectKey to use default once project relocated -->
-		</header>
-		<p>
-			Aggregator POM for <core:link book="/noc" page="/index.jspx">Network Operations Center</core:link> Monitoring.
-		</p>
-		<section:nav label="Project Links">
-			<ul>
-				<li><core:link page="index.jspx">Project Home</core:link></li>
-				<li><core:link page="changelog.jspx">Changelog</core:link></li>
-				<li><ao:a href="https://search.maven.org/artifact/${ao:encodeURIComponent('@{project.groupId}')}/${ao:encodeURIComponent('@{documented.artifactId}')}">Maven Central Repository</ao:a></li>
-				<li><ao:a href="@{project.scm.url}">GitHub</ao:a></li>
-			</ul>
-		</section:nav>
-		<section:section label="Modules">
-			<ul>
-				<li><core:link book="/noc/monitor/api" page="/index.jspx" /></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/blender" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-blender">NOC Monitor Blender</ao:a></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/callable" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-callable">NOC Monitor Callable</ao:a></li>
-				<li><core:link book="/noc/monitor/impl" page="/index.jspx" /></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/mobile" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile">NOC Monitor Mobile</ao:a></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/mobile-server" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile-server">NOC Monitor Mobile Server</ao:a></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/noswing" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-noswing">NOC Monitor No Swing</ao:a></li>
-				<li><core:link book="/noc/monitor/portmon" page="/index.jspx" /></li>
-				<li><core:link book="/noc/monitor/rmi-client" page="/index.jspx" /></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/rmi-server" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-rmi-server">NOC Monitor RMI Server</ao:a></li>
-				<li><core:link book="/noc/monitor/server" page="/index.jspx" /></li>
-				<!-- TODO: <li><core:link book="/noc/monitor/wrapper" page="/index.jspx" /></li> -->
-				<li><ao:a href="https://github.com/ao-apps/noc-monitor-wrapper">NOC Monitor Wrapper</ao:a></li>
-			</ul>
-		</section:section>
-	</core:page>
+  <jsp:directive.page language="java" pageEncoding="UTF-8" />
+  <jsp:directive.page session="false" />
+  <core:page
+    title="@{documented.name}"
+    description="@{documented.description}"
+    datePublished="2020-04-11T00:43:24-05:00"
+    dateModified="2021-10-05T04:07:33-05:00"
+  >
+    <core:child page="changelog.jspx" />
+    <core:child book="/noc/monitor/api" page="/index.jspx" />
+    <!-- TODO: <core:child book="/noc/monitor/blender" page="/index.jspx" /> -->
+    <!-- TODO: <core:child book="/noc/monitor/callable" page="/index.jspx" /> -->
+    <core:child book="/noc/monitor/impl" page="/index.jspx" />
+    <!-- TODO: <core:child book="/noc/monitor/mobile" page="/index.jspx" /> -->
+    <!-- TODO: <core:child book="/noc/monitor/mobile-server" page="/index.jspx" /> -->
+    <!-- TODO: <core:child book="/noc/monitor/noswing" page="/index.jspx" /> -->
+    <core:child book="/noc/monitor/portmon" page="/index.jspx" />
+    <core:child book="/noc/monitor/rmi-client" page="/index.jspx" />
+    <!-- TODO: <core:child book="/noc/monitor/rmi-server" page="/index.jspx" /> -->
+    <core:child book="/noc/monitor/server" page="/index.jspx" />
+    <!-- TODO: <core:child book="/noc/monitor/wrapper" page="/index.jspx" /> -->
+    <header>
+      <ao:include
+        page="/ao-badges/badges.inc.jspx"
+        arg.projectStatus="current-stable"
+        arg.managementStatus="production"
+        arg.packagingStatus="active"
+        arg.semanticVersioning="2.0.0"
+        arg.license="lgpl-3.0"
+        arg.scmUrl="@{project.scm.url}"
+        arg.githubBuildWorkflow="Build"
+        arg.mavenBadge="maven-central"
+        arg.groupId="@{project.groupId}"
+        arg.artifactId="@{documented.artifactId}"
+        arg.sonarProjectKey="com.aoapps.platform:noc-monitor"
+        arg.sonarQualityGate="true"
+        arg.sonarLinesOfCode="true"
+        arg.sonarReliability="true"
+        arg.sonarSecurity="true"
+        arg.sonarMaintainability="true"
+      />
+      <!-- TODO: Remove arg.sonarProjectKey to use default once project relocated -->
+    </header>
+    <p>
+      Aggregator POM for <core:link book="/noc" page="/index.jspx">Network Operations Center</core:link> Monitoring.
+    </p>
+    <section:nav label="Project Links">
+      <ul>
+        <li><core:link page="index.jspx">Project Home</core:link></li>
+        <li><core:link page="changelog.jspx">Changelog</core:link></li>
+        <li><ao:a href="https://search.maven.org/artifact/${ao:encodeURIComponent('@{project.groupId}')}/${ao:encodeURIComponent('@{documented.artifactId}')}">Maven Central Repository</ao:a></li>
+        <li><ao:a href="@{project.scm.url}">GitHub</ao:a></li>
+      </ul>
+    </section:nav>
+    <section:section label="Modules">
+      <ul>
+        <li><core:link book="/noc/monitor/api" page="/index.jspx" /></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/blender" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-blender">NOC Monitor Blender</ao:a></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/callable" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-callable">NOC Monitor Callable</ao:a></li>
+        <li><core:link book="/noc/monitor/impl" page="/index.jspx" /></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/mobile" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile">NOC Monitor Mobile</ao:a></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/mobile-server" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-mobile-server">NOC Monitor Mobile Server</ao:a></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/noswing" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-noswing">NOC Monitor No Swing</ao:a></li>
+        <li><core:link book="/noc/monitor/portmon" page="/index.jspx" /></li>
+        <li><core:link book="/noc/monitor/rmi-client" page="/index.jspx" /></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/rmi-server" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-rmi-server">NOC Monitor RMI Server</ao:a></li>
+        <li><core:link book="/noc/monitor/server" page="/index.jspx" /></li>
+        <!-- TODO: <li><core:link book="/noc/monitor/wrapper" page="/index.jspx" /></li> -->
+        <li><ao:a href="https://github.com/ao-apps/noc-monitor-wrapper">NOC Monitor Wrapper</ao:a></li>
+      </ul>
+    </section:section>
+  </core:page>
 </jsp:root>

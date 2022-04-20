@@ -1,48 +1,48 @@
 [submodule "api"]
-	path = api
-	url = git@github.com:ao-apps/noc-monitor-api.git
-	branch = master
+  path = api
+  url = git@github.com:ao-apps/noc-monitor-api.git
+  branch = master
 [submodule "blender"]
-	path = blender
-	url = git@github.com:ao-apps/noc-monitor-blender.git
-	branch = master
+  path = blender
+  url = git@github.com:ao-apps/noc-monitor-blender.git
+  branch = master
 [submodule "callable"]
-	path = callable
-	url = git@github.com:ao-apps/noc-monitor-callable.git
-	branch = master
+  path = callable
+  url = git@github.com:ao-apps/noc-monitor-callable.git
+  branch = master
 [submodule "impl"]
-	path = impl
-	url = git@github.com:ao-apps/noc-monitor-impl.git
-	branch = master
+  path = impl
+  url = git@github.com:ao-apps/noc-monitor-impl.git
+  branch = master
 [submodule "mobile"]
-	path = mobile
-	url = git@github.com:ao-apps/noc-monitor-mobile.git
-	branch = master
+  path = mobile
+  url = git@github.com:ao-apps/noc-monitor-mobile.git
+  branch = master
 [submodule "mobile-server"]
-	path = mobile-server
-	url = git@github.com:ao-apps/noc-monitor-mobile-server.git
-	branch = master
+  path = mobile-server
+  url = git@github.com:ao-apps/noc-monitor-mobile-server.git
+  branch = master
 [submodule "noswing"]
-	path = noswing
-	url = git@github.com:ao-apps/noc-monitor-noswing.git
-	branch = master
+  path = noswing
+  url = git@github.com:ao-apps/noc-monitor-noswing.git
+  branch = master
 [submodule "portmon"]
-	path = portmon
-	url = git@github.com:ao-apps/noc-monitor-portmon.git
-	branch = master
+  path = portmon
+  url = git@github.com:ao-apps/noc-monitor-portmon.git
+  branch = master
 [submodule "rmi-client"]
-	path = rmi-client
-	url = git@github.com:ao-apps/noc-monitor-rmi-client.git
-	branch = master
+  path = rmi-client
+  url = git@github.com:ao-apps/noc-monitor-rmi-client.git
+  branch = master
 [submodule "rmi-server"]
-	path = rmi-server
-	url = git@github.com:ao-apps/noc-monitor-rmi-server.git
-	branch = master
+  path = rmi-server
+  url = git@github.com:ao-apps/noc-monitor-rmi-server.git
+  branch = master
 [submodule "server"]
-	path = server
-	url = git@github.com:ao-apps/noc-monitor-server.git
-	branch = master
+  path = server
+  url = git@github.com:ao-apps/noc-monitor-server.git
+  branch = master
 [submodule "wrapper"]
-	path = wrapper
-	url = git@github.com:ao-apps/noc-monitor-wrapper.git
-	branch = master
+  path = wrapper
+  url = git@github.com:ao-apps/noc-monitor-wrapper.git
+  branch = master
