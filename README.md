@@ -6,7 +6,7 @@
 [![semantic versioning: 2.0.0](https://aoindustries.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://aoindustries.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/noc-monitor/workflows/Build/badge.svg?branch=master)](https://github.com/ao-apps/noc-monitor/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/noc-monitor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/ao-apps/noc-monitor/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc-monitor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc-monitor)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps.platform%3Anoc-monitor)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc-monitor&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc-monitor&metric=ncloc)  
