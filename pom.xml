@@ -105,32 +105,46 @@ along with noc-monitor.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <profiles>
+    <profile>
+      <id>javaee</id>
+      <activation>
+        <property>
+          <name>javaee.skip</name>
+          <value>!true</value>
+        </property>
+      </activation>
+      <modules>
+        <module>book</module>
+        <module>api/book</module>
+        <!-- TODO: <module>blender/book</module>-->
+        <!-- TODO: <module>callable/book</module>-->
+        <module>impl/book</module>
+        <!-- TODO: <module>mobile/book</module>-->
+        <!-- TODO: <module>mobile-server/book</module>-->
+        <!-- TODO: <module>noswing/book</module>-->
+        <module>portmon/book</module>
+        <module>rmi-client/book</module>
+        <!-- TODO: <module>rmi-server/book</module>-->
+        <module>server/book</module>
+        <!-- TODO: <module>wrapper/book</module>-->
+      </modules>
+    </profile>
+  </profiles>
+
   <modules>
-    <module>book</module>
     <module>api</module>
-    <module>api/book</module>
     <!-- TODO: <module>blender</module>-->
-    <!-- TODO: <module>blender/book</module>-->
     <!-- TODO: <module>callable</module>-->
-    <!-- TODO: <module>callable/book</module>-->
     <module>impl</module>
-    <module>impl/book</module>
     <module>impl/devel</module>
     <!-- TODO: <module>mobile</module>-->
-    <!-- TODO: <module>mobile/book</module>-->
     <!-- TODO: <module>mobile-server</module>-->
-    <!-- TODO: <module>mobile-server/book</module>-->
     <!-- TODO: <module>noswing</module>-->
-    <!-- TODO: <module>noswing/book</module>-->
     <module>portmon</module>
-    <module>portmon/book</module>
     <module>rmi-client</module>
-    <module>rmi-client/book</module>
     <!-- TODO: <module>rmi-server</module>-->
-    <!-- TODO: <module>rmi-server/book</module>-->
     <module>server</module>
-    <module>server/book</module>
     <!-- TODO: <module>wrapper</module>-->
-    <!-- TODO: <module>wrapper/book</module>-->
   </modules>
 </project>
