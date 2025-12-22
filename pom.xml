@@ -105,6 +105,22 @@ along with noc-monitor.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <modules>
+    <module>api</module>
+    <!-- TODO: <module>blender</module>-->
+    <!-- TODO: <module>callable</module>-->
+    <module>impl</module>
+    <module>impl/devel</module>
+    <!-- TODO: <module>mobile</module>-->
+    <!-- TODO: <module>mobile-server</module>-->
+    <!-- TODO: <module>noswing</module>-->
+    <module>portmon</module>
+    <module>rmi-client</module>
+    <!-- TODO: <module>rmi-server</module>-->
+    <module>server</module>
+    <!-- TODO: <module>wrapper</module>-->
+  </modules>
+
   <profiles>
     <profile>
       <id>javaee</id>
@@ -131,20 +147,4 @@ along with noc-monitor.  If not, see <https://www.gnu.org/licenses/>.
       </modules>
     </profile>
   </profiles>
-
-  <modules>
-    <module>api</module>
-    <!-- TODO: <module>blender</module>-->
-    <!-- TODO: <module>callable</module>-->
-    <module>impl</module>
-    <module>impl/devel</module>
-    <!-- TODO: <module>mobile</module>-->
-    <!-- TODO: <module>mobile-server</module>-->
-    <!-- TODO: <module>noswing</module>-->
-    <module>portmon</module>
-    <module>rmi-client</module>
-    <!-- TODO: <module>rmi-server</module>-->
-    <module>server</module>
-    <!-- TODO: <module>wrapper</module>-->
-  </modules>
 </project>
